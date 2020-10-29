@@ -1,0 +1,91 @@
+.ant-layout-footer {
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding-top: 40px;
+
+  .ft-content {
+    width: 80%;
+    margin: 0 auto;
+
+    .apps {
+      a {
+        display: block;
+
+        &:last-child {
+          margin-left: -12px;
+        }
+      }
+    }
+
+    h3 {
+      font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/17px var(--unnamed-font-family-lato);
+      letter-spacing: var(--unnamed-character-spacing-0);
+      color: var(--unnamed-color-553a28);
+      text-align: left;
+      font: normal normal bold 14px/17px Lato;
+      letter-spacing: 0px;
+      color: #553A28;
+      text-transform: capitalize;
+      opacity: 1;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+
+        a {
+          font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/36px var(--unnamed-font-family-lato);
+          letter-spacing: var(--unnamed-character-spacing-0);
+          text-align: left;
+          font: normal normal normal 14px/36px Lato;
+          letter-spacing: 0px;
+          color: #3B444D;
+          opacity: 1;
+        }
+      }
+    }
+
+    .ft-right {
+      padding-left: 50px;
+
+      .follow-us {
+        display: inline-flex;
+        align-items: center;
+        margin-bottom: 18px;
+
+        p {
+          font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/36px var(--unnamed-font-family-lato);
+          letter-spacing: var(--unnamed-character-spacing-0);
+          color: var(--unnamed-color-553a28);
+          text-align: left;
+          font: normal normal bold 14px/36px Lato;
+          letter-spacing: 0px;
+          color: #553A28;
+          opacity: 1;
+          margin: 0;
+        }
+
+        a {
+          margin-left: 10px;
+          color: #000;
+          font-size: 20px;
+        }
+      }
+    }
+
+    .copy-right {
+      margin-top: 30px;
+      font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 12px/36px var(--unnamed-font-family-lato);
+      letter-spacing: var(--unnamed-character-spacing-0);
+      text-align: center;
+      font: normal normal normal 12px/36px Lato;
+      letter-spacing: 0px;
+      color: #788495;
+      opacity: 1;
+    }
+  }
+}
