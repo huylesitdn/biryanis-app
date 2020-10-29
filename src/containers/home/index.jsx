@@ -9,7 +9,7 @@ import Explore from "../../components/home/explore";
 import Contact from "../../components/home/contact";
 import FooterPage from "../../common/footer";
 
-const { Footer, Content } = Layout;
+const { Content } = Layout;
 
 const Home = (props) => {
   return (
@@ -44,8 +44,8 @@ const Home = (props) => {
 
         <Contact />
       </Content>
-     
-     <FooterPage />
+
+      <FooterPage />
     </Layout>
   );
 };
